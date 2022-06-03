@@ -1,0 +1,7 @@
+echo 'alguma frase' > arquivo.txt adiciona o texto entre parenteses no arquivo escolhido o simbolo > significa que adiciona uma informação para o arquivo.
+
+para adicionar um arquvio a mais adicionar o >> mais mais. somente 1 > asubstituira os ja existentes.
+
+Podemos usar também o cat > arquivoescolhido.txt , após o enter podera ser adicionado várias informações.
+
+

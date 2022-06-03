@@ -1,0 +1,25 @@
+ps mostra as listas de processos sendo executados no momento.
+
+sleep 5 meu terminal ira parar por 5 segundos
+
+sleep 10 & o processo sera criado e ficara em background.
+
+sleep 100 e não colocar em background eu consigo suspender ele pelo ctrl z
+
+para colacar em background so digitar o bd
+
+jobs exibe todos processos sendo executados
+
+sleep 100 ctrl z ele fica suspenso
+e para ele voltar novamente so utilizar o fg % e o numero relacionado com o processo escolhido.
+
+para parar um processo so dar ctrl c
+
+para matar um processo q esta em background utilizar o comando kill % numero referente o processo escolhido
+
+ou kill com o numero do PID
+
+sleep 1000 &
+
+alguns não sao matados pelo kill para isso podemos usar o kill -9 e o numeor do processo
+
