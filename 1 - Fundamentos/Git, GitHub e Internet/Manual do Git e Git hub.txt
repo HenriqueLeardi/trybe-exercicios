@@ -1,0 +1,39 @@
+git init - inicia o git em uma pasta
+
+git status - mostra o status da sua pasta no git
+
+git add - adiciona algo na pasta
+ (adicionar entre aspas duplas)
+
+git add . - adiciona varios arquivos no git
+
+git commit -m "mensagem que representa a versão do codigo"
+!normalmente a primeira versão é chamada de commit inicial!
+
+git push - sobe os arquivos em nuvem no github
+
+git reflog - mostra o historico de versões
+
+git reset --hard !com o id referente a atualização! - passa o arquivo para a versão anterior
+e pode voltar para ela denovo se quiser com mesmo comando
+
+git branch - mostra as branchs disponiveis no momento
+!em verde com * mostra a que estou atualmente!
+
+git branch (nome escolhido) - cria uma nova branch 
+!é usado muito por ai staging como nome da 2 branch!
+
+git checkout (nome da branch) - muda o git para outra branch
+
+git pull - traz a atualização do servidor para a maquina
+!sempre usar esse comando antes do "git merge" para puxar o codigo do servidor para a maquina!
+
+git merge (nome da branch que quero puxar as alterações) - isso transfere as alterações de uma branch para outra
+
+git checkout -b (nome da branch) e (nome da branch base) - cria uma branch com base na master
+
+touch .gitignore - cria um arquivo onde vou listar o que não deve ser enviado para o repositorio do github
+
+git diff + branch1 + branch que eu quero comparar - compara o que foi feito em uma branch e na outra não
+
+git log - mostra o histórico de commits realizados.

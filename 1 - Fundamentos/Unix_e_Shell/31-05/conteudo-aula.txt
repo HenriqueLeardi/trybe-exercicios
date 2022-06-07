@@ -1,0 +1,17 @@
+o comando find faz uma busca em diretorios de acordo com o parametro escolhido name, date, size, type
+
+Mostra o histórico de comandos
+history
+# Pegar os últimos 10 comandos
+history | tail
+
+O `echo` é um comando utilizado em scripts ou no terminal para exibir mensagens na tela ou em um arquivo.
+
+echo "Este é um teste"
+# Resultado
+Este é um teste
+
+# Pode ser usado para colocar textos dentro de arquivos.
+echo "Este é mais um teste" > teste.txt
+cat teste.txt
+Este é mais um teste

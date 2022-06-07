@@ -1,0 +1,17 @@
+o cat consegue receber valores que o usuario coloca como input por exemplo, pra fechar ctrl d
+
+cat > cores.txt o que eu escrever sera atribuido ao local escolhido
+
+cat >> acrescenta mais informações a um arquivo
+
+atraves do comando cat podem ser juntados 2 arquivos a um cat arquivo1 aqrquivo2 > tudo.txt
+ 
+ podemos ordenar por ordem com o comando sort
+ sort < eu altero o valor mas somente para exibição.
+ 
+ ordenação criando arquivo ordenado com o comando sort porem agr faço assim sort < cors.txt > coresOrdenadas.txt
+ 
+ para saber os usuarios presentes uso o comando who.
+ 
+ posso juntar 2 comandos com o pipe | who | sort por exemplo.
+ 

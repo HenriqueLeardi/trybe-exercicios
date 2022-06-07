@@ -1,0 +1,27 @@
+ls -l mostra uma porção de outras informaçõs que o ls não mostra.
+
+- significa q e um arquvo comum se n seria d
+rw ler e escrever
+x pode executar
+r-- pode ler mais n executar e nem escrever
+r-- outro grupo não pode executar nem escrever so ler.
+
+chmod g faz a mudança para o grupo todo
+chmod u para usuario atual
+chmod o para outro usuario
+chmod a para todo mundo
+chmod u com o - retira alguma permissão + adiciona e o = não faz alteração na condição atual
+chmod u-rw nomeDoArquivo.txt remover
+chmod u+rw nomeDoArquivo.txt adicionar
+
+
+após o comando ls -l ou ll
+será apresentado na seguinte ordem os arquivos
+Permissões => É possível verificar o tipo do item e nível de permissão para Leitura, Escrita e Execução de item ou diretório;
+Links => Número de ligações que o item possui, no caso do diretório, número de subdiretórios que possui;
+Proprietário => Quem é a pessoa dona, quem criou. É o diretório padrão da pessoa usuária, o home;
+Grupo => Grupo ao qual pertence o item ou diretório. Utilizado para dar permissões à outras pessoas;
+Tamanho => Em Bytes;
+Data e Hora => Momento em que foi criado ou última modificação;
+Nome => Nome do item ou diretório;
+
