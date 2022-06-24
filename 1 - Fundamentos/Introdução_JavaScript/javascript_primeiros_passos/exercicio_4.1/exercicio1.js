@@ -15,3 +15,14 @@ console.log(divisao);
 
 let modulo = 10 % 14;
 console.log(modulo);
+
+// Retornar o maior de 2 números
+
+const c = 11;
+const d = 43;
+
+if (c > d) {
+    console.log("c é maior que d");
+} else {
+    console.log("d é maior que c");
+}
